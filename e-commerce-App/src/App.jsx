@@ -12,7 +12,7 @@ export default function App() {
  
   return (
     <div className='w-full h-full'>
-    <Router>
+    <Router basename="/amireccomerproject/">
     <AnimatedRoutes/>
     </Router>
     </div>
