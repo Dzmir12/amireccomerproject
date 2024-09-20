@@ -12,7 +12,7 @@ export default function App() {
  
   return (
     <div className='w-full h-full'>
-    <Router basename="/amireccomerproject/">
+    <Router basename={import.meta.env.BASE_URL}>
     <AnimatedRoutes/>
     </Router>
     </div>
